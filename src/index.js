@@ -23,7 +23,7 @@ function getCountries(name) {
     .then(r => r.json())
     .then(renderCountriesList)
     .catch(() => {
-      console.log('nothing found');
+      console.log('nothing found!');
       return;
     });
 }
